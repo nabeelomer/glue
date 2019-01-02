@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "glue_macro",
+    "glue",
+    "example",
+]

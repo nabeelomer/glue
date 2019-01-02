@@ -1,0 +1,9 @@
+[package]
+name = "glue"
+version = "0.1.0"
+authors = ["Nabeel Omer <nabeelkomer@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+glue_macro = { path = "../glue_macro" }
+proc-macro-hack = "0.5.2"

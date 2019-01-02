@@ -1,0 +1,16 @@
+[package]
+authors = ["Nabeel Omer <nabeelkomer@gmail.com>"]
+edition = "2018"
+name = "glue_macro"
+version = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.6.10"
+proc-macro-hack = "0.5.2"
+
+[dependencies.proc-macro2]
+features = ["nightly"]
+version = "0.4.24"
