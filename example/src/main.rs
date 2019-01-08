@@ -1,8 +1,7 @@
-use glue::ruby;
+use glue::*;
 
 fn main() {
-
     ruby! {
-        LOL
+        puts "Hello World from Ruby across the bridge!"
     };
 }
