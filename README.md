@@ -1,6 +1,6 @@
 # Glue
 
-**[WIP]** Glue is a library that provides the _glue_ to call Ruby code from a Rust program.
+**[WIP]** Glue is a library that provides the _glue_ to write Ruby code inside a Rust program.
 
 ```rust
 use glue::*;
